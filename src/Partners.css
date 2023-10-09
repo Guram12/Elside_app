@@ -1,0 +1,76 @@
+.partner_container{
+    height: 400px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+
+}
+
+.partners_h2{
+    color: aliceblue;
+    height: 40px;
+ 
+}
+
+.little_partner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:40px;
+    margin-top: -30px;
+    color: aliceblue;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    border-radius: 30px;
+    width: 300px;
+    position: absolute;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.partner_little_cont{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* partner icon  styles */
+
+.partner_icons{
+    width: 100px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 1; /* The image is fully visible initially */
+}
+
+
+.white:hover .partner_icons {
+    transform: scale(1.1); /* The image will scale up to 110% of its original size on hover */
+    opacity: 0.8; /* The image will become a bit transparent on hover */
+}
+
+
+.all_partners{
+    width: 700px;
+    background: #181E27;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#717e92;
+    width: 150px;
+    height: 100px;
+    border-radius: 30px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+    
+}

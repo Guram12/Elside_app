@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@700&family=Onest:wght@600&family=Overpass:wght@400;700&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+.big_main {
+    margin-top: 777px;
+    background: #181E27;
+    position: relative;
+    height: 700px;
+}
+
+.main_service_cont{
+    display: flex;
+    justify-content: center;
+}
+
+
+.service_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:40px;
+    margin-top: -30px;
+    color: aliceblue;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    border-radius: 30px;
+    width: 300px;
+    position: absolute;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    height: 50px;
+
+}
+
+.service_icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* services  */
+
+.services_container{
+    display: flex;
+    justify-content:center;
+}
+
+
+.services{
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 90px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Onest', sans-serif;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.electrical{
+    width: 250px;
+    margin-bottom: 20%;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.electrical:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.service_button{
+    cursor: pointer;
+    margin-top: 30px;
+    height: 40px;
+    width: 190px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-family: 'Onest', sans-serif;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+}

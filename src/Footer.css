@@ -1,0 +1,54 @@
+.footer_container{
+    height: 200px;
+    background: #131518;
+    
+    
+}
+
+.single_contact{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    padding-top: 40px;
+    gap: 30px;
+    margin-left: 30px;
+    
+}
+
+
+.for_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #b0bac9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: row;
+    
+}
+
+.location_icon{
+    width: 40px;
+    height: 37px;
+}
+ 
+
+
+.location_text{
+    color: aliceblue;
+}
+
+.contacts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:100px;
+}
+
+.reserved {
+    color: #666f7c;
+    margin-top: 70px;
+    margin-left: 30px;
+}
