@@ -13,6 +13,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+
 }
 .container .btn {
 	position: relative;
@@ -108,35 +109,35 @@
 }
 .container .btn:nth-child(1)::before, /*chnage 1*/
 .container .btn:nth-child(1)::after {
-	background: #232A34;
-	box-shadow: 0 0 5px #232A34, 0 0 15px #232A34, 0 0 30px #232A34,
-		0 0 60px #232A34;
+	background: #6b6b6b;
+	box-shadow: 0 0 5px #6b6b6b, 0 0 15px #6b6b6b, 0 0 30px #6b6b6b,
+		0 0 60px #6b6b6b;
 }
 .container .btn:nth-child(2)::before, /* 2*/
 .container .btn:nth-child(2)::after {
-	background: #232A34;
-	box-shadow: 0 0 5px #232A34, 0 0 15px #232A34, 0 0 30px #232A34,
-		0 0 60px #232A34;
+	background: #6b6b6b;
+	box-shadow: 0 0 5px #6b6b6b, 0 0 15px #6b6b6b, 0 0 30px #6b6b6b,
+		0 0 60px #6b6b6b;
 }
 .container .btn:nth-child(3)::before, /* 3*/
 .container .btn:nth-child(3)::after {
-	background: #232A34;
-	box-shadow: 0 0 5px #232A34, 0 0 15px #232A34, 0 0 30px #232A34,
-		0 0 60px #232A34;
+	background: #6b6b6b;
+	box-shadow: 0 0 5px #6b6b6b, 0 0 15px #6b6b6b, 0 0 30px #6b6b6b,
+		0 0 60px #6b6b6b;
 }
 
 .container .btn:nth-child(4)::before, /* 4*/
 .container .btn:nth-child(4)::after {
-	background: #232A34;
-	box-shadow: 0 0 5px #232A34, 0 0 15px #232A34, 0 0 30px #232A34,
-		0 0 60px #232A34;
+	background: #6b6b6b;
+	box-shadow: 0 0 5px #6b6b6b, 0 0 15px #6b6b6b, 0 0 30px #6b6b6b,
+		0 0 60px #6b6b6b;
 }
 
 .container .btn:nth-child(5)::before, /* 5*/
 .container .btn:nth-child(5)::after {
-	background: #232A34;
-	box-shadow: 0 0 5px #232A34, 0 0 15px #232A34, 0 0 30px #232A34,
-		0 0 60px #232A34;
+	background: #6b6b6b;
+	box-shadow: 0 0 5px #6b6b6b, 0 0 15px #6b6b6b, 0 0 30px #6b6b6b,
+		0 0 60px #6b6b6b;
 }
 
 /* logo and other styling */
@@ -147,6 +148,7 @@
     justify-content:space-between;
     align-items: center;
     height: 130px;
+	background: #232A34;
 }
 
 .logo{
