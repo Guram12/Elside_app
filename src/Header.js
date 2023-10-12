@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
 import './Header.css';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 
 export function Header() {
@@ -45,11 +46,11 @@ export function Header() {
         <header className='header'>
             <img src='./company_logo.png' alt='elside company logo' className='logo' />
             <div className="container">
-                <div className="btn"><a href="three">{content[language].home}</a></div>
+                <div className="btn"><Link to={'/'}>{content[language].home}</Link></div>
                 <div className="btn"><a href="three">{content[language].company}</a></div>
                 <div className="btn"><a href="three">{content[language].services}</a></div>
                 <div className="btn"><a href="four">{content[language].projects}</a></div>
-                <div className="btn"><a href="five">{content[language].contact}</a></div> 
+                <div className="btn"><Link  to={'/contact'}  >{content[language].contact}</Link></div> 
                 <Select 
                     options={languageOptions} 
                     defaultValue={languageOptions[0]}
