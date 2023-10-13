@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Contact from './pages/Contact';
 import ProjectPage  from './pages/ProjectPage';
-import OngoingPage from './pages/OngoingPage';
 
 
 
@@ -19,9 +18,9 @@ function App() {
       <div className="App">
         <Header />
           <Routes>
-            <Route path='/' Component={HomePage} />
-            <Route path='/contact' Component={Contact} />
-            <Route path='/projects' Component={ProjectPage} />
+            <Route path='/' element={<HomePage />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/projects/*' element={<ProjectPage />} />
 
           </Routes>
         <Footer />
