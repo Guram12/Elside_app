@@ -1,7 +1,12 @@
-import './Projects.css'
-import ongoing from './images/ongoing.jpg'
-import complited from './images/complited.png'
-import projects from './images/projects_icon.png'
+import './Projects.css';
+import ongoing from './images/ongoing.jpg';
+import complited from './images/complited.png';
+import projects from './images/projects_icon.png';
+
+import { Link } from 'react-router-dom';
+
+
+
 
 
 export function  Projects(){
@@ -11,7 +16,6 @@ export function  Projects(){
                 <div className='project_container'>
                     <h2 >P r o j e c t s</h2>
                     <img src={projects} alt='service icon' className='service_icon' />
-
                 </div>
                 
             </dic>
@@ -20,7 +24,10 @@ export function  Projects(){
                 {/* first servis pack */}
                 <div className='services'>
                     <div>
-                        <button className='service_button'>ongoing</button>
+                        <Link to={'./ongoing'} component="" >
+                            <button className='service_button'>ongoing</button>
+                        
+                        </Link>
                     </div>
 
                     <div>

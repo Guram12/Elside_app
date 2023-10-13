@@ -1,7 +1,14 @@
-.contact {
+.contact_container {
     height: 900px;
     background: black ;
 }
+
+.contact_h1{
+    color: aliceblue;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
 
 .address{
     color: aliceblue;
@@ -15,4 +22,5 @@
 
 .google-map{
     margin-top: 40px;
+    margin-left: 50px;
 }

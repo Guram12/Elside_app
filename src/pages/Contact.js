@@ -4,8 +4,11 @@ import './Contact.css'
 
 export default function Contact() {
     return (
-        <div className='contact'>
-            <h1 class >მ ი ს ა მ ა რ თ ი</h1>
+        <div className='contact_container'>
+            <div className="contact" >
+                <h1 className="contact_h1" >მ ი ს ა მ ა რ თ ი</h1>
+            </div>
+            
             <div className="google-map">
                 <iframe 
                     title='location'

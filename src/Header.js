@@ -49,7 +49,7 @@ export function Header() {
                 <div className="btn"><Link to={'/'}>{content[language].home}</Link></div>
                 <div className="btn"><a href="three">{content[language].company}</a></div>
                 <div className="btn"><a href="three">{content[language].services}</a></div>
-                <div className="btn"><a href="four">{content[language].projects}</a></div>
+                <div className="btn"><Link to={'/projects'} >{content[language].projects}</Link></div>
                 <div className="btn"><Link  to={'/contact'}  >{content[language].contact}</Link></div> 
                 <Select 
                     options={languageOptions} 
